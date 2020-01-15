@@ -1,10 +1,10 @@
 package exercices;
-// Calcul de la surface d'un rectangle
-public class Rectangle {
-    public Double Longueur;
-    public Double Largeur;
 
-    public Rectangle(Double L, Double l){
+public class Rectangle {
+    public double Longueur;
+    public double Largeur;
+
+    public Rectangle(double L, double l){
         this.Longueur=L;
         this.Largeur=l;
     }
@@ -12,10 +12,10 @@ public class Rectangle {
     public Rectangle(double v, int i, int i1) {
     }
 
-    public Double surface(){
+    public double surface(){
         return this.Longueur*this.Largeur;
     }
     public void afficher(){
-        System.out.println("La surface du rectangle est : " + this.surface());
+                System.out.println("La surface du rectangle est : " + this.surface());
     }
 }
